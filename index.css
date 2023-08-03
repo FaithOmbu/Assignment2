@@ -1,0 +1,78 @@
+div {
+  background-color: gray;
+  height: 50vh;
+  width: 50vw;
+  margin: 10px;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(199, 7, 7);
+  font-style: oblique;
+}
+body {
+  background-color: black;
+}
+
+#divOne {
+  flex: 9;
+  color: aliceblue;
+}
+#divTwo {
+  flex: 12;
+  color: rgb(109, 5, 5);
+  font-size: larger;
+}
+#divThree {
+  flex: 20;
+  color: rgb(88, 4, 88);
+  font-stretch: wider;
+  font-style: italic;
+}
+#divFour {
+  flex: 10;
+  color: rgb(3, 3, 87);
+}
+#divFive {
+  flex: 2;
+  color: aquamarine;
+}
+#divSix {
+  color: rgb(73, 55, 5);
+  font-size: large;
+}
+
+#divSeven {
+  color: rgb(240, 176, 97);
+  font-style: italic;
+  font-weight: 200;
+  font-size: large;
+}
+#divEight {
+  color: rgb(5, 82, 92);
+  font-style: oblique;
+  font-size: medium;
+}
+#divNine {
+  color: rgb(58, 24, 2);
+  font-style: normal;
+}
+#divTen {
+  color: rgb(1, 37, 12);
+  font-size: larger;
+  font-style: italic;
+}
+#Whatreallyislove {
+  font-size: 120px;
+}
+
+body {
+  margin: 0;
+  padding: 3rem;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
